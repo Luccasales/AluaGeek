@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>Alura Geek</h1>
+    </header>
+
+    <main class="conteudo">
+        <section class="conteudoPrincipal">
+            <div class="produtosDisponivel">
+                <h2>Produtos Disponiveis:</h2>
+            </div> <!--produtosDisponivel-->
+            <ul class="blocoPricipalItens" id="meusProdutos" data-lista>
+                <!----   <li class="produtos__item">
+                    <div class="card" id="card__itachi">
+                        <img src="/images/itachi.jpg" alt="Imagem do boneco itachi" class = "imagem">
+                        <div class="card__container__info">
+                            <p>Boneco itachi</p>
+                            <div class="card__container__value">
+                                <p>$90,00</p>
+                                <img src="images/iconeLixo.png" alt="Ícone lixo" class="lixeira">
+                            </div>
+                        </div>
+                    </div>
+                    </li>
+                    <li class="produtos__item">
+                    <div class="card" id="card__naruto">
+                        <img src="/images/naruto.jpg" alt="Imagem boneco naruto" class = "imagem">
+                        <div class="card__container__info">
+                            <p>Boneco do naruto</p>
+                            <div class="card__container__value">
+                                <p>$260,00</p>
+                                <img src="images/iconeLixo.png" alt="Ícone lixo" class="lixeira">
+                            </div>
+                        </div>
+                    </div>
+                    </li>
+                    <li class="produtos__item">
+                    <div class="card" id="card__saske">
+                        <img src="/images/saske.jpg" alt="Imagem boneco do saske" class = "imagem">
+                        <div class="card__container__info">
+                            <p>Boneco do saske</p>
+                            <div class="card__container__value">
+                                <p>$160,00</p>
+                                <img src="images/iconeLixo.png" alt="Ícone lixo" class="lixeira">
+                            </div>
+                        </div>
+                    </div>
+                    </li> -->
+            </ul>
+        </section>
+
+        <section class="conteudoAdicional">
+            <div class="adicionarProdutos">
+                <h2>Adicionar produto :</h2>
+
+                <form class="conteinerFormulario" id="formulario" data-formulario>
+                    <input type="text" id="campoNome" name="nome" placeholder="Digite o nome do produto" class="formularioInput">
+                    <input type="text" id="campoValor" name="valor" placeholder="Digite o valor do produto" class="formularioInput">
+                    <input type="text" id="campoImage" name="imagem" placeholder="Imagem..." class="formularioInput">
+                    <div class="botoes">
+                        <input type="submit" id="saveButton" value="guardar" data-botao-guardar>
+                        <button type="button" class="btnLimpar" id="limpar" dataBotaoLimpar>Limpar</button>
+                    </div><!--botoes-->
+                </form>
+                
+                </div><!--ContainerFormulario-->
+            </div><!--adicionarProdutos-->
+        </section>
+
+    </main>
+    <footer class="rodape__flex">
+        <div class="rodape__logo__titulo">AluraGeek</div>
+        <div class="rodape__texto">
+            <p1>DESENVOLVIDO POR LUCCA</p1>
+            <P2>ALURA LATAM 2024</P2>
+        </div><!--rodape__texto-->
+    </footer>
+    <script src="app/conectaApi.js" type="module"></script>
+    <script src="app/criaProduto.js" type="module"></script>
+    <script src="app/mostrarProdutos.js" type="module"></script>
+</body>
+
+</html>

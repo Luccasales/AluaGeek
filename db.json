@@ -1,0 +1,42 @@
+{
+  "Produtos": [
+    {
+      "id": "0",
+      "nome": "Boneco Itachi",
+      "valor": "90,00",
+      "imagem": "./images/itachi.jpg",
+      "status": false,
+      "categoria": "funko"
+    },
+    {
+      "id": "1",
+      "nome": "Boneco Naruto",
+      "valor": "260,00",
+      "imagem": "./images/naruto.jpg",
+      "status": false,
+      "categoria": "funko"
+    },
+    {
+      "id": "3",
+      "nome": "Boneco saske",
+      "valor": "160,00",
+      "imagem": "./images/saske.jpg",
+      "status": false,
+      "categoria": "funko"
+    },
+    {
+      "id": "dd0e",
+      "nome": "Boneco Naruto",
+      "valor": "260.00",
+      "imagem": "images/naruto.jpg",
+      "status": false
+    },
+    {
+      "id": "cbd7",
+      "nome": "Boneco Naruto",
+      "valor": "100",
+      "imagem": "images/naruto.jpg",
+      "status": false
+    }
+  ]
+}

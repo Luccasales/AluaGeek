@@ -1,0 +1,114 @@
+/* CONFIGURAÇÕES GERAIS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+
+}
+
+body{
+    min-width: 100vh;
+}
+
+/* TOPO DO SITE*/
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    align-items: center;
+    
+}
+/* CONTEUDO PRINCIPAL */
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.produtosDisponivel{
+       
+}
+
+.conteudoPrincipal{
+    margin-left: 100px;
+    width: 50%;
+    
+}
+
+.blocoPricipalItens {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+    gap: 10px; /* Espaço entre as imagens */
+}
+
+.card {
+    height: auto;
+    max-width: 400px;
+    border: 2px solid #000; /* Add a border around the container */
+    padding: 10px; /* Add some padding to create space between the image and the border */
+    border-radius: 10px; /* Optionally, add rounded corners to the container */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow effect */
+   
+    
+}
+
+.imagem{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 5px solid #555;
+}
+
+.lixeira{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.lixeira:hover{
+    cursor: pointer;
+}
+
+/* CONTEUDO ADICIONAL */
+
+.conteudoAdicional{
+    width: 30%;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteinerFormulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudoAdicional , .conteinerFormulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formularioInput{
+    width:500px;
+    height:50px;
+    border-radius: 30px;
+    margin-top: 30px;
+
+}
+
+
+
+.botoes input[type="submit"], .botoes button {
+    
+    margin: 20px 40px;
+    padding: 5px 60px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 30px;
+}
